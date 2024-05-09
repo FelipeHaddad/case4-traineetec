@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    text-decoration: none;
+    font-style: roboto;
+}
+.navbar{
+    background: #135F08; font-family: roboto; padding-right: 15px;padding-left: 15px;
+}
+.navdiv{
+    display: flex; align-items: center; justify-content: space-between;
+}
+.logo a{
+    font-size: 35px; font-weight: 600; color: white;
+}
+li{
+    list-style: none; display: inline-block;
+}
+li a{
+    color: white; font-size: 18px; font-weight: bold; margin-right: 25px;   
+}
+
+
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+div ul li{
+    list-style: none;
+    display: inline-block;
+}
+
